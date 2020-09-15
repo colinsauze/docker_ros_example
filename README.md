@@ -30,7 +30,7 @@ python3 rotate.py```
 
 Many ROS standard utilities including rqt_plot, rqt_graph and rqt_console are included. 
 
-!(screenshot of TurtleSim and the rotate.py example)[screenshot.png]
+![screenshot of TurtleSim and the rotate.py example](screenshot.png)
 
 
 
