@@ -21,10 +21,19 @@ Or it can be found by running:
 
 ### Example programs
 
-```cd /root/turtlesim_cleaner/src 
-python3 gotogoal.py
-python3 move.py
-python3 rotate.py```
+In the terminal type the following:
+
+```cd /root/turtlesim_cleaner/src```
+
+```python3 gotogoal.py```
+
+or
+
+```python3 move.py```
+
+or
+
+```python3 rotate.py```
 
 ### ROS utilities
 
