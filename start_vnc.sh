@@ -5,7 +5,7 @@ cd
 
 pwgen -1 > /tmp/passwd
 
-bash /opt/set_password.sh `cat /tmp/passwd`
+bash /opt/set_vnc_password.sh `cat /tmp/passwd`
 
 vncserver :0 -geometry 1024x768
 export DISPLAY=:0
@@ -20,5 +20,6 @@ cat /tmp/passwd
 
 #non-SSL version
 /opt/noVNC-1.0.0/utils/launch.sh --vnc localhost:$vnc_port --listen $web_port &
+
 
 
