@@ -13,6 +13,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     net-tools \
     tigervnc-common \
     tigervnc-standalone-server \
+    websockify \
     jwm \
     wget \
     xterm \
