@@ -1,5 +1,7 @@
 # Example of using ROS in a Docker Container
 
+![screenshot of TurtleSim and the rotate.py example](screenshot.png)
+
 This example includes:
 
 * ROS Noetic - http://wiki.ros.org/noetic
@@ -39,7 +41,6 @@ or
 
 Many ROS standard utilities including rqt_plot, rqt_graph and rqt_console are included. 
 
-![screenshot of TurtleSim and the rotate.py example](screenshot.png)
 
 
 
