@@ -34,7 +34,6 @@ SHELL ["/bin/bash", "-c"]
 COPY start_vnc.sh /
 
 ENV TZ=Europe/London
-
 RUN chmod 777 /*.sh && \
     cd /opt && wget https://github.com/novnc/noVNC/archive/v1.0.0.tar.gz -O /tmp/webvnc-v1.0.0.tar.gz && \
     tar xvfz /tmp/webvnc-v1.0.0.tar.gz && \   
@@ -47,7 +46,9 @@ RUN chmod 777 /*.sh && \
 COPY set_vnc_password.sh /opt
 COPY system.jwmrc /etc/jwm
 COPY lxterminal.conf /home/vnc/.config/lxterminal
-COPY move.py /
+
+
+RUN cd /root && git clone https://github.com/clebercoutof/turtlesim_cleaner
 
 
 # Define shell scripts used to start Gazebo and SITL
