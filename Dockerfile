@@ -49,7 +49,7 @@ COPY system.jwmrc /etc/jwm
 COPY lxterminal.conf /home/vnc/.config/lxterminal
 
 
-RUN cd /root && git clone https://github.com/clebercoutof/turtlesim_cleaner
+RUN cd /root && git clone https://github.com/colinsauze/turtlesim_cleaner
 
 
 # Define shell scripts used to start Gazebo and SITL
